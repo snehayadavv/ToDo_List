@@ -7,6 +7,15 @@ h1{
   font-size: 24px;
   font-weight: normal;
 }
+.fa-plus{
+  float: right;
+}
+body{
+  background: #2BC0E4;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #EAECC6, #2BC0E4);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #EAECC6, #2BC0E4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
 
 ul{
   list-style: none;
@@ -26,6 +35,20 @@ li{
 
 li:nth-child(2n){
   background: #f7f7f7;
+}
+span{
+ background: #e74c3c;
+ height: 40px;
+ margin-right: 20px;
+ text-align: center;
+ color: white;
+ width: 0;
+ display: inline-block;
+ transition: 0.2s linear;
+}
+
+li:hover span {
+  width: 40px;
 }
 
 input{
